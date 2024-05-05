@@ -1,11 +1,11 @@
 # Read contents of each file
-with open('Libraries and keys.txt', 'r') as file1:
+with open('Libraries_keys.txt', 'r') as file1:
     imports = file1.read()
 
 with open('data_loading&data_cleaning.py', 'r') as file2:
     data_preparation = file2.read()
 
-with open('Aspect_Extraction_NER.py', 'r') as file3:
+with open('aspect_extraction_ner.py', 'r') as file3:
     Aspect_Extraction = file3.read()
 
 with open('embedding.py', 'r') as file4:
@@ -14,10 +14,10 @@ with open('embedding.py', 'r') as file4:
 with open('vector_database_creation.py', 'r') as file5:
     Vector_database = file5.read()
 
-with open('Review_Retrieval.py', 'r') as file6:
+with open('review_retrieval.py', 'r') as file6:
     Review_retrieval = file6.read()
 
-with open('Reranking.py', 'r') as file7:
+with open('reranking.py', 'r') as file7:
     Reranking = file7.read()
 
 with open('llm.py', 'r') as file8:
